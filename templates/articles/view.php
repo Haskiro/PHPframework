@@ -9,7 +9,7 @@
               <label for="title">Новый заголовок</label>
               <input id="title" name="title">
               <label for="text">Новый текст</label>
-              <input id="text" name="text">
+              <textarea id="text" name="text"></textarea>
               <input type="submit" value="Изменить">
             </form>
             <hr>

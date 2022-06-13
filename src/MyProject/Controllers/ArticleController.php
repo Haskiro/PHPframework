@@ -44,7 +44,7 @@
             if (!empty($_POST['text'])) {
                 $article->setText($_POST['text']);
             }
-            if (!empty($_POST['text'])) {
+            if (!empty($_POST['title'])) {
                 $article->setName($_POST['title']);
             }
             $article->save();
